@@ -160,10 +160,6 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label-text:hover {
-  text-decoration: underline;
-}
-
 .search-form__textfield {
   width: 225px;
   border: 1px solid #fff;
@@ -176,6 +172,11 @@ ol {
   font-size: 18px;
   background-color: transparent;
   appearance: none;
+}
+
+
+.search-form__label-text:hover {
+  text-decoration: underline;
 }
 
 .search-form__textfield::placeholder {
