@@ -192,11 +192,6 @@ ol {
   outline: none;
 }
 
-.search-form__checkbox-list {
-  display: flex;
-  gap: 15px;
-  padding-bottom: 5px;
-}
 
 .search-form__pseudo-checkbox {
   display: flex;
@@ -206,6 +201,13 @@ ol {
   block-size: 19px;
   border: 1px solid white;
   margin-right: 5px; 
+}
+
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 5px;
 }
 
 .search-form__pseudo-checkbox:hover {
